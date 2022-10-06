@@ -40,3 +40,41 @@ body {
 }
 
 /* ----------- CODE BELOW -----------  */
+
+.flex{
+    display: flex;
+}
+
+.al-ctr{
+    align-items: center;
+}
+
+.jtf-ctr{
+    justify-content: center;
+}
+
+.jtf-rgt{
+    justify-content: flex-end;
+}
+
+.sp-btw{
+    justify-content: space-between;
+}
+
+header{
+    padding: 0 1%;
+    height: 100px;
+    background-color: #109DEA;
+    color: #FFFFFF;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 32px;
+}
+
+a:hover{
+    background-color: #EE88E4;
+}
