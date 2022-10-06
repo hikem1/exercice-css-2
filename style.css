@@ -50,6 +50,10 @@ body {
     align-items: center;
 }
 
+.al-end{
+    align-items: flex-end;
+}
+
 .jtf-ctr{
     justify-content: center;
 }
@@ -176,4 +180,48 @@ button{
     background-color: #04234E;
     border: #04234E;
     align-self: flex-end;
+}
+
+/* section contact */
+
+.sect-contact{
+    height: 650px;
+    background-color: #04234E;
+    color: #FFFFFF;
+}
+
+.form-contact{
+    height: 423px;
+    width: 832px;
+    border: 1px solid#FFFFFF;
+}
+
+.input-byside{
+    width: 48%;
+}
+
+.inputstyle{
+    height: 50px;
+    width: 100%;
+    background-color: #109DEA;
+    margin: 1rem 0;
+}
+
+.inputstyle::placeholder{
+    color: #FFFFFF;
+    font-style: italic;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+textarea::placeholder{
+    color: #FFFFFF;
+    font-style: italic;
+}
+
+.label-prenom{
+    align-self: flex-start;
+}
+
+textarea{
+    height: 200px;
 }
