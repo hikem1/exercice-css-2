@@ -40,6 +40,7 @@ body {
 }
 
 /* ----------- CODE BELOW -----------  */
+/* flex property */
 
 .flex{
     display: flex;
@@ -61,6 +62,8 @@ body {
     justify-content: space-between;
 }
 
+/* header */
+
 header{
     padding: 0 1%;
     height: 100px;
@@ -77,4 +80,47 @@ nav > a{
 
 nav > a:hover{
     background-color: #EE88E4;
+}
+
+/* image cover */
+
+.cover-img{
+    max-width: 100%;
+    display: block;
+}
+
+/* sect-presentation */
+
+.sect-presentation{
+    padding: 0 1%;
+    background-color: #04234E;
+    color: #FFFFFF;
+    height: 600px;
+    gap: 1rem;
+}
+
+.left-side{
+    width: 50%;
+}
+
+.left-side h2{
+    padding: 1rem;
+    font-size: 48px;
+    text-decoration: underline 1px #EE88E4;
+    text-underline-offset: 1rem;
+}
+
+.left-side p{
+    margin-top: 2em;
+}
+
+.right-side{
+    height: 100%;
+    width: 50%;
+    padding: 1rem;
+}
+
+.right-side img{
+    object-fit: cover;
+    max-width: 100%;
 }
