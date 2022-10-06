@@ -68,13 +68,13 @@ header{
     color: #FFFFFF;
 }
 
-a{
+nav > a{
     color: #FFFFFF;
     text-decoration: none;
     padding: 0 30px;
     font-size: 32px;
 }
 
-a:hover{
+nav > a:hover{
     background-color: #EE88E4;
 }
