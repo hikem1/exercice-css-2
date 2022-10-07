@@ -152,7 +152,7 @@ h2{
 }
 
 .card {
-    width: 850px;
+    width: 45%;
     height: 400px;
     border: 1px solid #04234E;
 }
@@ -161,7 +161,8 @@ h2{
     width: 50%;
     height: 100%;
     background-image: url("img/lieux-img.jpg");
-    background-size: 100%;
+    background-size: cover;
+    
 }
 
 .card-desc{
@@ -192,8 +193,12 @@ button{
 
 .form-contact{
     height: 423px;
-    width: 832px;
-    border: 1px solid#FFFFFF;
+    width: 40%;
+    gap: 2rem;
+}
+
+label{
+    margin-bottom: 0.5rem;
 }
 
 .input-byside{
@@ -204,24 +209,27 @@ button{
     height: 50px;
     width: 100%;
     background-color: #109DEA;
-    margin: 1rem 0;
 }
 
-.inputstyle::placeholder{
-    color: #FFFFFF;
-    font-style: italic;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
+.inputstyle::placeholder,
 textarea::placeholder{
     color: #FFFFFF;
     font-style: italic;
-}
-
-.label-prenom{
-    align-self: flex-start;
+    padding: 1rem;
+    font-family: 'roboto';
 }
 
 textarea{
     height: 200px;
+    resize: none;
+    background-color: #109DEA;
+}
+
+input[type="submit"]{
+    align-self: center;
+    color: #FFFFFF;
+    font-size: 32px;
+    padding: 1rem;
+    background-color: #EE88E4;
+    border: #04234E;
 }

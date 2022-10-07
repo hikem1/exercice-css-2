@@ -61,24 +61,30 @@
     <section class="sect-contact">
         <h2>Contact</h2>
         <div class="form-box flex jtf-ctr"> 
-            <form class="form-contact" action="">
+            <form class="form-contact flex col" action="">
                 <div class="flex sp-btw">
                     <div class="input-byside flex col">
                         <label for="name">Nom</label>
-                        <input class="inputstyle" type="text" name="contact" id="name" placeholder="  Entrez votre nom">
+                        <input class="inputstyle" type="text" name="contact" id="name" placeholder="Entrez votre nom">
                     </div>
-                    <div class="input-byside flex col al-end">
+                    <div class="input-byside flex col">
                         <label class="flex label-prenom" for="prenom">Prenom</label>
-                        <input class="inputstyle" type="text" name="contact" id="prenom" placeholder="  Entrez votre prenom">
+                        <input class="inputstyle" type="text" name="contact" id="prenom" placeholder="Entrez votre prenom">
                     </div>
                 </div>
-                <label for="sujet">Sujet</label>
-                <input class="inputstyle" type="text" name="contact" id="sujet" placeholder="  Entrez votre sujet">
-                <label for="message">Message</label>
-                <textarea name="contact" id="message" cols="30" rows="10" placeholder="  Entrez votre message"></textarea>
+                <div class="flex col">
+                    <label for="sujet">Sujet</label>
+                    <input class="inputstyle" type="text" name="contact" id="sujet" placeholder="Entrez votre sujet">
+                </div>
+                <div class="flex col">
+                    <label for="message">Message</label>
+                    <textarea name="contact" id="message" placeholder="Entrez votre message..."></textarea>
+                </div>
+                <input type="submit" value="Details">
             </form>
         </div>
     </section>
+
 </body>
 
 </html>
